@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+}
+
+.bg-1 {
+  background-color: #272a31;
+}
+
+.bg-2 {
+  background-color: #d3d3d3;
+}
+
+.bg-3 {
+  background-color: #ec5242;
+}
+
+.bg-4 {
+  background-color: #747c8f;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.head-section h2{
+  font-size: 4rem;
+}
+
+.head-section h1 {
+  font-size: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.head-section p {
+  font-size: 1.7rem;
+  margin-bottom: 8rem;
+  line-height: 1.8rem;
+}
+
+.presenters .col-md-6 {
+  padding: 2rem;
+}
+
+.presenters img {
+  width: 10rem;
+  height: 100%;
+}
+
+.partners img {
+  height: 3.5rem;
+  width: auto;
+}
+
+.past img{
+  width: 35rem;
+  height: 20rem;
+  filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.logo-section h2{
+  font-size: 3rem;
+}
+
+.logo-section p {
+  font-size: 1.5rem;
+}
+
+footer div{
+  display: flex;
+  width: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer img {
+  width: 15rem;
+  height: auto;
+}
+
+footer p {
+  height: 30px;
+}
+
+.logo-section img{
+  width: 6rem;
+  height: auto;
+  margin-left: 48%;
+}
+
+.about {
+  filter: invert(1);
+}
+
+.text-inside {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+
+  #menu img{
+    display: none;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collapse {
+    display: block;
+  }
+
+  .head-section h2{
+    font-size: 1.8rem;
+  }
+  
+  .head-section h1 {
+    font-size: 3rem;
+  }
+  
+  .head-section p {
+    font-size: 1.2rem;
+  }
+
+  .event-item {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .rounded-pill {
+    font-size: 80%;
+    height: 2.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  #menu{
+    display: flex;
+  }
+
+  #menu-elem {
+    width: 85%;
+  }
+
+  .event-item {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .rounded-pill {
+    font-size: 1.8rem;
+    height: 3.7rem;
+    width: 100%
+   }
+}
