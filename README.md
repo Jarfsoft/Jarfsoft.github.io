@@ -2,8 +2,7 @@
 
 # Conference Capstone
 
-A new design for a made-up expo based on one of Behance's sites. It has different pages in order to
-find specific information such as "about us" and prices. 
+A new design for a made-up expo based on one of Behance's sites. It has different pages in order to find specific information such as what is the expo about, who is comming, some of the history behind the expo, contact info and prices. Monkey Electronic Expo is bringing the head leaders of the biggest electronic companies in the world to present their latest technoloies.
 
 
 ![screenshot](./assets/images/screenshot.png)
@@ -26,11 +25,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- A operating system such as Windows, MAC, or Linux
-- A modern browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge
+- An operating system such as Windows, MAC, or Linux
+- An modern browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge
 
 ### Setup
-- Clone or download the repo and run the HTML File.
+- Clone or download the repo.
+- Go to the folder in which you downloaded the repo.
+- Find the index.html file and drag it into a browser tab.
 
 ### Run tests
 - StyleLint
@@ -44,7 +45,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@Jarfsoft](https://github.com/Jarfsoft)
 - Twitter: [@Jarfsoft](https://twitter.com/Janluc123)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores-7b0a3b113/
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores-7b0a3b113/)
 
 ## 🤝 Contributing
 
