@@ -16,7 +16,7 @@ A new design for a made-up expo based on one of Behance's sites. It has differen
 
 ## Live Demo
 
-[Live Demo Link](https://janluc.github.io/CapstoneConference/index.html)
+[Live Demo Link](https://jarfsoft.github.io/)
 
 
 ## Getting Started
