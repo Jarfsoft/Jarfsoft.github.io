@@ -11,8 +11,22 @@
 }
 
 p,
-a {
+a,
+.p-font {
   font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.new-font {
+  font-family: "COCOGOOSE";
+  font-size: 1.5rem;
 }
 
 footer div {
