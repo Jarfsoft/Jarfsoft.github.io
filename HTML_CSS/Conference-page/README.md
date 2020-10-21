@@ -16,7 +16,7 @@ A new design for a made-up expo based on one of Behance's sites. It has differen
 
 ## Live Demo
 
-[Live Demo Link](https://jarfsoft.github.io/)
+[Live Demo Link](https://jarfsoft.github.io/HTML_CSS/Conference-page/)
 
 
 ## Getting Started
