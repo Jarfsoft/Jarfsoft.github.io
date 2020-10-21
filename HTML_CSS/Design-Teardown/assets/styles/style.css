@@ -1,0 +1,452 @@
+header {
+  display: flex;
+  background-color: #d3d3d3;
+  justify-content: space-evenly;
+  line-height: 95px;
+  height: 90px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.header-itm-bckgrn {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #a9a9a9;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+header img {
+  width: 52px;
+  height: 72px;
+  margin-top: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+.articles {
+  text-align: center;
+  width: 25%;
+  font-size: 25px;
+  position: absolute;
+  left: 38%;
+  background-color: transparent;
+}
+
+.img {
+  width: 96px;
+  height: 86px;
+  border: 10px solid #d3d3d3;
+  border-radius: 20px;
+}
+
+.change-bkg {
+  float: right;
+}
+
+.writers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.writer-1 {
+  background-color: #a9a9a9;
+  width: 50%;
+  padding-top: 150px;
+}
+
+.writer-2 {
+  background-color: #dcdcdc;
+  width: 50%;
+  padding-top: 150px;
+}
+
+.writer-3 {
+  background-color: #808080;
+  width: 50%;
+}
+
+.writer-4 {
+  background-color: #c0c0c0;
+  width: 50%;
+}
+
+.autor-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.margin-20 {
+  margin-left: 170px;
+  width: 400px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.writer,
+.wrtr-name {
+  width: 100%;
+  font-size: 21px;
+}
+
+.write {
+  margin-right: 226px;
+  width: 224px;
+}
+
+.article-title {
+  padding-left: 20px;
+}
+
+.issues {
+  padding-left: 20px;
+}
+
+.arrow {
+  padding-left: 20px;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-elem {
+  padding: 20px;
+}
+
+.grid-elem-author {
+  color: #c0c0c0;
+  font-weight: 700;
+  padding: 0;
+}
+
+.grid-elem-title {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+.arrow-botton {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-section {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.in-text {
+  background-color: #696969;
+}
+
+.advertise {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.ofs {
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  margin: 30px 0 0 317px;
+  font-size: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+.partner {
+  border: 1px solid gray;
+  padding: 50px;
+  border-radius: 5%;
+  text-align: center;
+  background-color: #808080;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.partner-title p {
+  font-size: 1.5em;
+}
+
+.sign {
+  border: 1px solid lightgray;
+  color: white;
+  padding: 10px 15px;
+  background-color: #d3d3d3;
+  text-decoration: none;
+  border-radius: 4%;
+}
+
+.smashing-members {
+  border: 1px solid lightgray;
+  text-align: center;
+  background-color: #808080;
+  color: white;
+  border-radius: 15px;
+  height: 600px;
+}
+
+.member-title {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+.smashing-members p {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.feature {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: #c0c0c0;
+  background-color: white;
+  padding: 10px 15px;
+}
+
+.signin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 300px;
+  justify-content: center;
+}
+
+.inline-text-center,
+a {
+  text-align: center;
+  color: black;
+  width: 100%;
+  padding: 50px;
+}
+
+.design {
+  background-color: #808080;
+  padding: 15px 60px 15px 60px;
+}
+
+.newsletter {
+  margin: 45px;
+  height: 530px;
+  background-color: #808080;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.newsletter img {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.newsletter a {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.newsletter p {
+  color: white;
+  width: 450px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.newsletter input {
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.newsletter button {
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.slogan {
+  background-color: #c0c0c0;
+  border-radius: 15px;
+  height: 60px;
+  width: 370px;
+  margin-left: 90px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.slogan p {
+  background-color: #dcdcdc;
+  text-align: center;
+  margin: 0 0 0 25px;
+  width: 317px;
+}
+
+.design .book-title {
+  color: white;
+  font-weight: bold;
+}
+
+.design div {
+  width: 70%;
+}
+
+.design a {
+  padding: 0;
+  color: white;
+  font-size: 35px;
+}
+
+.design p {
+  color: white;
+  width: 100%;
+  font-size: 18px;
+}
+
+.design button {
+  height: 55px;
+  width: 240px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.smashing-guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.smashing-guide {
+  margin: 45px;
+  height: 500px;
+  background-color: white;
+  padding: 15px 60px 15px 60px;
+  border-radius: 15px;
+}
+
+.smashing-guide a {
+  font-size: 25px;
+  color: #696969;
+  text-align: left;
+}
+
+.smashing-guide button {
+  height: 48px;
+  width: 240px;
+  border: none;
+  border-radius: 15px;
+  background-color: #a9a9a9;
+  color: white;
+  font-weight: bold;
+}
+
+.all-latest {
+  text-align: center;
+}
+
+.person-week {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.person-week-parag {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+footer {
+  background-color: #696969;
+  margin-bottom: 0;
+  padding: 80px 0 80px 0;
+}
+
+.guides {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.footer-link {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 0 90px;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  font-size: 20px;
+}
+
+.shipping {
+  align-items: center;
+  text-align: center;
+  margin: 0 0 0 180px;
+  width: 20px;
+}
+
+.shipping button {
+  font-weight: bold;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.end {
+  list-style: none;
+  text-decoration: underline;
+}

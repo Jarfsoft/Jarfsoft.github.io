@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 40px;
+    border: 2px black;
+}
+
+nav {
+    margin-left: 25px;
+    margin-top:-10px;
+}
+.navbar-logo{
+    margin-top:26px; 
+    margin-right: 30px;
+}
+
+.navbar-logo i{
+    font-weight: 700;
+    font-size: large;
+    color: gray;
+}
+.header-top{
+    margin-top:24px; 
+    margin-left: 55px;
+}
+
+
+nav, aside, #profile-record, #review-info, .column, .same-line{
+    display: flex;
+}
+
+
+.youtube-logo{
+    height: 60px;
+    width:60px;
+}
+.left-alignment{
+margin-top: 7px;
+}
+
+nav input{
+    height: 30px;
+    width: 500px;
+    margin-left: 125px; 
+    border: 1px solid grey; 
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+nav button {
+    height: 30px;
+    width: 60px; 
+    margin-left:-55px;
+    /* border: none; */
+    opacity: 0.5;
+}
+
+.icon-top{
+    margin-top:25px; 
+    color: grey;
+}
+
+.add-video-playlist {
+    margin-left: 135px;
+}
+
+.bell{
+    margin-left: 70px;
+}
+
+.profile-pic img{
+    margin-left: 70px;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+section {
+    margin-left: 95px;
+    margin-top:55px;
+}
+
+#video-title{
+    margin-top: 15px;
+}
+#like{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#dislike{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#share{
+    margin-top: 27px;
+    margin-left: 25px;
+}
+#subscribe{
+    margin-top: 27px;
+    margin-left: 25px;
+}
+
+aside{
+    margin-left: 30px;
+}
+
+.fix-top{
+    margin-top: -15px;
+    height:100px;
+    width:"100px";
+}
+
+aside .song-title{
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside .column{
+    flex-direction: column;
+}
+ 
+ 
+ .video-adjust{
+    width: 700; 
+    height: 400;
+ }
+
+ .icon-size{
+    font-size: 20px;
+ }
+
+ .user-icon{
+    font-size: 24px;
+ }
