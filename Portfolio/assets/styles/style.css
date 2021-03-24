@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+@font-face {
+  font-family: "custom-font";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
+
+.bg-2 {
+  background-color: #1C1A19;
+}
+
+.head-section h1 {
+  font-size: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.head-section p {
+  font-size: 1.7rem;
+  margin-bottom: 8rem;
+  line-height: 1.8rem;
+}
+
+.bg-d {
+  background-color: #3E3C3C;
+}
+
+.big-my {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.fs-2 {
+  font-size: 15px;
+}
+
+.fs-3 {
+  font-size: 25px;
+}
+
+.text-th {
+  color: #F55800;
+}
+
+.bg-th {
+  background-color:  #F55800;
+}
+
+#sub-text {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.lh-5 {
+  line-height: 2.8rem !important;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.line {
+  width: 80%;
+  height: 100% !important;
+}
+
+.work-frame {
+  width: 430px;
+  height: auto;
+  padding: 30px;
+}
+
+.image-frame {
+  width: auto;
+  height: auto;
+}
+
+.language {
+  border-style: solid;
+  border-color: #3E3C3C;
+  font-size: 15px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.other-language {
+  top: 80%
+}
+
+.btn-see {
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  border-style: none;
+}
+
+.title-photo {
+  text-align: center;
+  top: 55%;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.text-photo {
+  top: 65%;
+  font-size: 13px;
+  color: white;
+}
+
+.img-size {
+  height: 400px;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.btn-other {
+  bottom: 0;
+  width: 100% !important;
+}
+
+.about-img {
+  width: 180rem;
+  height: auto;
+}
+
+.about-list {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.about-list,
+li {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+
+  #menu img {
+    display: none;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collapse {
+    display: block;
+  }
+
+  .head-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .head-section h1 {
+    font-size: 3rem;
+  }
+
+  .head-section p {
+    font-size: 1.2rem;
+  }
+
+  .event-item {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .rounded-pill {
+    font-size: 80%;
+    height: 2.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu-elem {
+    width: 85%;
+  }
+
+  .event-item {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .rounded-pill {
+    font-size: 1.8rem;
+    height: 3.7rem;
+    width: 100%;
+  }
+}
