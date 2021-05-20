@@ -26,7 +26,7 @@ html {
 
 .head-section p {
   font-size: 1.7rem;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   line-height: 1.8rem;
 }
 
@@ -35,8 +35,8 @@ html {
 }
 
 .big-my {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 125px;
+  margin-bottom: 125px;
 }
 
 .fs-2 {
@@ -60,21 +60,11 @@ html {
   font-weight: 700;
 }
 
-.lh-5 {
-  line-height: 2.8rem !important;
-}
-
 .fw-bold {
   font-weight: bold;
 }
 
-.line {
-  width: 80%;
-  height: 100% !important;
-}
-
 .work-frame {
-  width: 430px;
   height: auto;
   padding: 30px;
 }
@@ -82,14 +72,6 @@ html {
 .image-frame {
   width: auto;
   height: auto;
-}
-
-.language {
-  border-style: solid;
-  border-color: #3E3C3C;
-  font-size: 15px;
-  margin-right: 5px;
-  padding: 5px;
 }
 
 .other-language {
@@ -106,7 +88,7 @@ html {
 
 .title-photo {
   text-align: center;
-  top: 55%;
+  top: 50%;
   font-weight: bold;
   font-size: 20px;
   color: white;
@@ -118,9 +100,30 @@ html {
   color: white;
 }
 
+.github-photo {
+  top: 56%;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(19, 84, 128);
+}
+
 .img-size {
   height: 400px;
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../images/logo.jpg);
+  background: linear-gradient(179.35deg, rgba(77, 77, 77, 0) 0.85%, rgba(15, 15, 15, 0.973) 60%), url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.img-size2 {
+  height: 400px;
+  background: linear-gradient(179.35deg, rgba(77, 77, 77, 0) 0.85%, rgba(15, 15, 15, 0.973) 60%), url(../images/screenshot.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.img-size3 {
+  height: 400px;
+  background: linear-gradient(179.35deg, rgba(77, 77, 77, 0) 0.85%, rgba(15, 15, 15, 0.973) 60%), url(../images//screenshot2.png);
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -184,6 +187,35 @@ li {
     font-size: 80%;
     height: 2.3rem;
   }
+
+  .recent-work {
+    font-size: 1rem;
+  }
+
+  .line {
+    width: 70%;
+    height: 100% !important;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .language {
+    border-style: solid;
+    border-color: #3E3C3C;
+    font-size: 8px;
+    margin-right: 5px;
+    padding: 2px;
+  }
+
+  .lh-5 {
+    line-height: 1.8rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .about-text {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -208,5 +240,34 @@ li {
     font-size: 1.8rem;
     height: 3.7rem;
     width: 100%;
+  }
+
+  .recent-work {
+    font-size: 2rem;
+  }
+
+  .line {
+    width: 70%;
+    height: 100% !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1.5rem!important;
+  }
+
+  .language {
+    border-style: solid;
+    border-color: #3E3C3C;
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .lh-5 {
+    line-height: 2.8rem !important;
+    font-size: 2.1rem !important;
+  }
+
+  .about-text {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
