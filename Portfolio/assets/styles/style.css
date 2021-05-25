@@ -1,5 +1,6 @@
 * {
   padding: 0;
+  width: 100%;
 }
 
 html {
@@ -144,6 +145,10 @@ html {
 .about-list,
 li {
   padding: 1rem;
+}
+
+.width-auto {
+  width: auto;
 }
 
 @media (max-width: 768px) {
