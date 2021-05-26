@@ -108,7 +108,7 @@ html {
 
 .img-size {
   height: 400px;
-  background: linear-gradient(179.35deg, rgba(77, 77, 77, 0) 0.85%, rgba(15, 15, 15, 0.973) 60%), url(../images/logo.jpg);
+  background: linear-gradient(179.35deg, rgba(77, 77, 77, 0) 0.85%, rgba(15, 15, 15, 0.973) 60%), url(../images/screenshot3.png);
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -151,8 +151,8 @@ li {
   width: auto;
 }
 
-.good-margen {
-  margin-top: 8rem;
+.good-margin {
+  margin-top: 9rem;
 }
 
 @media (max-width: 768px) {
