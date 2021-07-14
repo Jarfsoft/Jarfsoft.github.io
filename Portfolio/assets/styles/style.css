@@ -155,6 +155,12 @@ li {
   margin-top: 9rem;
 }
 
+#about li {
+  width: 60%;
+  text-align: left;
+  margin: auto;
+}
+
 @media (max-width: 768px) {
   .mobile {
     display: block;
