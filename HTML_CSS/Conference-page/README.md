@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@Jarfsoft](https://github.com/Jarfsoft)
 - Twitter: [@Jarfsoft](https://twitter.com/Janluc123)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores-7b0a3b113/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores/)
 
 ## 🤝 Contributing
 
