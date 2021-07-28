@@ -24,7 +24,7 @@ Linters errors
 :silueta_de_busto: Juan Andrés Raudales Flores
 - GitHub: [@Jarfsoft](https://github.com/Jarfsoft)
 - Twitter: [@Jarfsoft](https://twitter.com/Jarfsoft)
-- LinkedIn: [Juan Raudales Flores](https://www.linkedin.com/in/juan-raudales-flores-7b0a3b113/)
+- LinkedIn: [Juan Raudales Flores](https://www.linkedin.com/in/juan-raudales-flores/)
 
 :silueta_de_busto:  Mir Rawshan Ali
 - GitHub: [@sumon0002009](https://github.com/sumon0002001)
