@@ -42,7 +42,7 @@ To see how it looks like open the index.html file on your browser
 
 - GitHub: [@jarfsoft](https://github.com/jarfsoft)
 - Twitter: [@jarfsoft](https://twitter.com/jarfsoft)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores-7b0a3b113/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores/)
 
 ## 🤝 Contributing
 
