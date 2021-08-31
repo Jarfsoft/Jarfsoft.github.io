@@ -145,6 +145,7 @@ html {
 .about-list,
 li {
   padding: 1rem;
+  margin: 0 auto;
 }
 
 .width-auto {
